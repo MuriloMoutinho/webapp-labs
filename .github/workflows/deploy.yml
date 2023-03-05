@@ -24,7 +24,7 @@ jobs:
   code-quality:
     name: Qualidade de código
     needs: build 
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
       
     steps:
       - name: Git Checkout
